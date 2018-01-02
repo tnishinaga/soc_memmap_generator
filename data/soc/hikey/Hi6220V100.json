@@ -1,0 +1,34 @@
+{
+    "socname" : "Hi6220V100",
+    "arch" : "ARM64",
+    "archversion" : "ARMv8a",
+    "description" : "",
+    "memmap" : {
+        "UART0"  : {"address" : "0xF8015000", "module" : "arm-pl011"},
+        "UART1"  : {"address" : "0xF7111000", "module" : "arm-pl011"},
+        "UART2"  : {"address" : "0xF7112000", "module" : "arm-pl011"},
+        "UART3"  : {"address" : "0xF7113000", "module" : "arm-pl011"},
+        "UART4"  : {"address" : "0xF7114000", "module" : "arm-pl011"},
+        "GPIO0"  : {"address" : "0xF8011000", "module" : "arm-pl061"},
+        "GPIO1"  : {"address" : "0xF8012000", "module" : "arm-pl061"},
+        "GPIO2"  : {"address" : "0xF8013000", "module" : "arm-pl061"},
+        "GPIO3"  : {"address" : "0xF8014000", "module" : "arm-pl061"},
+        "GPIO4"  : {"address" : "0xF7020000", "module" : "arm-pl061"},
+        "GPIO5"  : {"address" : "0xF7021000", "module" : "arm-pl061"},
+        "GPIO6"  : {"address" : "0xF7022000", "module" : "arm-pl061"},
+        "GPIO7"  : {"address" : "0xF7023000", "module" : "arm-pl061"},
+        "GPIO8"  : {"address" : "0xF7024000", "module" : "arm-pl061"},
+        "GPIO9"  : {"address" : "0xF7025000", "module" : "arm-pl061"},
+        "GPIO10" : {"address" : "0xF7026000", "module" : "arm-pl061"},
+        "GPIO11" : {"address" : "0xF7027000", "module" : "arm-pl061"},
+        "GPIO12" : {"address" : "0xF7028000", "module" : "arm-pl061"},
+        "GPIO13" : {"address" : "0xF7029000", "module" : "arm-pl061"},
+        "GPIO14" : {"address" : "0xF702A000", "module" : "arm-pl061"},
+        "GPIO15" : {"address" : "0xF702B000", "module" : "arm-pl061"},
+        "GPIO16" : {"address" : "0xF702C000", "module" : "arm-pl061"},
+        "GPIO17" : {"address" : "0xF702D000", "module" : "arm-pl061"},
+        "GPIO18" : {"address" : "0xF702E000", "module" : "arm-pl061"},
+        "GPIO19" : {"address" : "0xF702F000", "module" : "arm-pl061"}
+    }
+    
+}

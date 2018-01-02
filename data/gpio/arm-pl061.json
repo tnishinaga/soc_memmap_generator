@@ -1,0 +1,21 @@
+{
+    "name" : "PL061",
+    "maker" : "ARM",
+    "description" : "ARM PrimeCell GPIO",
+    "register" : {
+        "GPIODATA"  : {"offset": "0x0000", "size": "0x0400"},
+        "GPIODIR"   : {"offset": "0x0400", "size": "0x0004"},
+        "GPIOIS"    : {"offset": "0x0404", "size": "0x0004"},
+        "GPIOIBE"   : {"offset": "0x0408", "size": "0x0004"},
+        "GPIOIEV"   : {"offset": "0x040C", "size": "0x0004"},
+        "GPIOIE"    : {"offset": "0x0410", "size": "0x0004"},
+        "GPIOIE2"   : {"offset": "0x0500", "size": "0x0004"},
+        "GPIOIE3"   : {"offset": "0x0504", "size": "0x0004"},
+        "GPIORIS"   : {"offset": "0x0414", "size": "0x0004"},
+        "GPIOMIS"   : {"offset": "0x0418", "size": "0x0004"},
+        "GPIOMIS2"  : {"offset": "0x0530", "size": "0x0004"},
+        "GPIOMIS3"  : {"offset": "0x0534", "size": "0x0004"},
+        "GPIOIC"    : {"offset": "0x041C", "size": "0x0004"},
+        "GPIOAFSEL" : {"offset": "0x0420", "size": "0x0004"}
+    }
+}

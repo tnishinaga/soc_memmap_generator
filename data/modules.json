@@ -1,0 +1,4 @@
+{
+    "arm-pl011" : "serial/arm-pl011.json",
+    "arm-pl061" : "gpio/arm-pl061.json"
+}
